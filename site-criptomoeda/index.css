@@ -1,0 +1,164 @@
+body{
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+header img{
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+  border: 7px solid green;
+}
+
+
+footer img {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+footer{
+  display:flex;
+  justify-content: center;
+}
+
+footer a{
+  margin: 50px;
+}
+
+.center{
+  display: flex;
+ justify-content: center;
+}
+
+
+h1{
+  color: green;
+}
+
+
+h3{
+  color: rgb(88, 209, 88);
+}
+
+li{
+  color: rgb(24, 180, 19);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#binance-element{
+  margin-top: -30px;
+  order: -1;
+}
+
+.item{
+  text-align: center;
+}
+
+.container {
+  background-color: #000000; /* Cor de fundo do contêiner */
+  padding: 20px; /* Espaçamento interno do contêiner */
+  border-radius: 10px; /* Borda arredondada do contêiner */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+.lista-criptomoedas {
+  list-style-type: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove espaçamento padrão da lista */
+  display: flex; /* Exibe os itens em linha */
+  flex-wrap: wrap; /* Permite quebra de linha */
+  justify-content: center; /* Centraliza os itens na tela */
+}
+
+.lista-criptomoedas li {
+  margin: 10px; /* Espaçamento entre os botões */
+}
+
+.lista-criptomoedas a {
+  font-family:'Times New Roman', Times, serif; 
+  background-color: #52be55; /* Cor de fundo do botão */
+  color: rgb(255, 255, 255); /* Cor do texto do botão */
+  padding: 15px 32px; /* Espaçamento interno do botão */
+  text-align: center; /* Alinhamento do texto dentro do botão */
+  text-decoration: none; /* Remove sublinhado do link */
+  border-radius: 6px; /* Borda arredondada */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.lista-criptomoedas a:hover {
+  background-color: #3ba541; /* Cor de fundo ao passar o mouse */
+}
+
+.container{
+  padding: 0px 50px;
+}
+
+nav a:hover{
+  color: #52be55;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline; /* Adiciona o sublinhado */
+}
+ 
+.ticker {
+  width: 100%;
+  
+  color: rgb(30, 172, 53);
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.ticker__wrap {
+  display: inline-block;
+  padding-left: 10%;
+  animation: ticker 80s linear infinite;
+}
+
+.ticker__item {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker__item {
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 1.2em;
+  color: #52be55;
+}
+
+.criptocenter{
+  text-align: center;
+}
